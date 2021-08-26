@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Permanent+Marker&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Mystery+Quest&family=Open+Sans&family=Permanent+Marker&family=Playfair+Display&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#73F1D3;
+}
+textarea{
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    border-radius: 15%;
+    padding: 20px;
+    margin:20px;
+}
+#input{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-in {
+    margin-top: 30px;
+}
+#output{
+    border: 1px solid black;
+    width: 40%;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.main-content h1{
+    text-align: center;
+    font-size: bold;
+    font-family: 'Permanent Marker', cursive;
+}
+input[type="submit"]
+{
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: green;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+#about p,h3{
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:bold;
+    font-weight: bold;
+    font-family: 'Mystery Quest', cursive;
+    font-size: 20px;
+}
+#about h3{
+    padding: 20px;
+    font-size: 25px;
+
+}
